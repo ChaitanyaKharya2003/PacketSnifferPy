@@ -8,7 +8,7 @@ python arpspoof.py
 OR
 python3 arpspoof.py
 3. Check the interface that you want to use using ifconfig(on linux based OS) and ipconfig(on Windows OS).
-4. According to the interfaces display, edit line 33 in packetSniffer.py, and change the interface argument (set as eth0 by default) accordingly.
+4. According to the interfaces displayed, edit line 33 in packetSniffer.py, and change the interface argument (set as eth0 by default) accordingly.
 
 In arpspoof.py:
     For Python 3 compatibility:
